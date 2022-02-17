@@ -39,8 +39,10 @@
     >Agrega con el nombre origin la ruta remota
 + git push -u origin master
     >Empuja la rama master a la ruta remota
-<<<<<<< HEAD
 + git pull origin
     >Jala el repositorio desde la ruta remota
-=======
->>>>>>> 4123e5753d6ea28af2209cc69b76f4dc76e70ca7
+    + al existir conflictos:
+        >Primero: seleccionar el cambio a mantener
+        >Segundo: realizar un git add
+        >Tercero: realizar un commit
+        >Esto solucionara el conflicto y me permitirá seguir trabajando
