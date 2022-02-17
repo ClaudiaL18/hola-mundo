@@ -7,8 +7,9 @@
 + git --version:
    > Me muestra mi versión actual de git.
 + git config --global user.name "usuario"
-   > Asigna mi usurio a mi compu.
-+ git config --global user.email "correo que corresponde al usuario"
+   > Asigna mi usurio a mi compu (local).
++ git config --global user.email "correo que corresponde al usuario de github"
+   > Asigna mi correo a mi compu (local).
 + git config user.name
     >nos enseña el usuario actual.
 + git config user.email
@@ -38,5 +39,8 @@
     >Agrega con el nombre origin la ruta remota
 + git push -u origin master
     >Empuja la rama master a la ruta remota
+<<<<<<< HEAD
 + git pull origin
     >Jala el repositorio desde la ruta remota
+=======
+>>>>>>> 4123e5753d6ea28af2209cc69b76f4dc76e70ca7
